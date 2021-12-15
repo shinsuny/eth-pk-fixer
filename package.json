@@ -1,15 +1,23 @@
 {
   "name": "eth-pk-fixer",
   "version": "1.0.0",
-  "main": "src/app.ts",
-  "repository": "https://github.com/shinsuny/eth-pk-fixer.git",
-  "license": "MIT",
-  "author": "Sarveshwar Singh",
-  "dependencies": {
-    "@types/node": "^16.11.12",
-    "typescript": "^4.5.4"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "ts-node": "^10.4.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinsuny/eth-pk-fixer.git"
+  },
+  "author": "Sarveshwar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinsuny/eth-pk-fixer/issues"
+  },
+  "homepage": "https://github.com/shinsuny/eth-pk-fixer#readme",
+  "dependencies": {
+    "ethereum-private-key-to-address": "^0.0.7",
+    "ethereum-private-key-to-public-key": "^0.0.5"
   }
 }
